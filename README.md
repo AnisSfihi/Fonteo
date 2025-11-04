@@ -1,45 +1,44 @@
 # Fonteo 🌊
 
-**Fonteo** est une application intelligente de suivi et de cartographie des sources d'eau. Elle récupère et affiche en temps réel les données IoT des sources, propose une cartographie interactive et permet d’analyser les caractéristiques minérales de l’eau. Les utilisateurs peuvent filtrer et explorer les informations selon différents critères pour mieux sélectionner les sources fiables.
+**Fonteo** is an intelligent water source tracking and mapping application. It collects and displays IoT data from water sources in real time, offers an interactive map, and allows users to analyze the mineral characteristics of the water. Users can filter and explore the information based on various criteria to better select reliable sources.
 
 ---
 
 ## 🔹 Concept
 
-L'idée de Fonteo est de centraliser les informations sur les sources d'eau pour :  
+The idea behind Fonteo is to centralize information about water sources in order to: 
 
-- Identifier les points d'eau fiables.
-- Fournir des données précises et en temps réel.
-- Offrir une interface intuitive pour explorer et comparer les sources.
-- Permettre aux utilisateurs de contribuer et de signaler de nouvelles sources.
-
----
-
-## 🔹 Fonctionnalités
-
-- **Cartographie interactive**
-- **Recherche et filtrage**
-- **Informations détaillées sur chaque source**
-- **Proposition de nouvelles sources**
-- **Validation intelligente des noms de sources**
+- Identify reliable water points.
+- Provide accurate, real-time data.
+- Offer an intuitive interface to explore and compare sources.
+- Allow users to contribute and report new sources.
 
 ---
 
-## 🔹 Technologies utilisées
+## 🔹 Features
 
-- **Flutter / Dart** pour l'application mobile.  
-- **HTTP & JSON** pour la récupération des données depuis Overpass API.  
-- **Latlong2** pour la gestion des coordonnées géographiques.
-- **Firebase** (Realtime Database et Firestore) pour stocker et synchroniser les données en temps réel.
-- **Lottie** pour les animations interactives.
-- **OpenRouteService (OPM)** pour calculer les itinéraires. 
-- **Git & GitHub** pour le versioning.  
-- **Capteurs IoT (température, pH, TDS…)** pour collecter les paramètres en temps réel.
-- **Interface React externe** pour répertorier et insérer les données minérales (calcium, potassium, sodium…) des laboratoires d’analyse liées à chaque source d’eau.
+- **Interactive mapping**
+- **Search and filtering**
+- **Detailed information on each source**
+- **Suggestion of new sources**
+- **Intelligent validation of source names**
 
 ---
 
-## 🔹 Structure du projet
+## 🔹 Technologies Used
+
+- **Flutter / Dart** for the mobile application.  
+- **HTTP & JSON** for fetching data from the Overpass API.  
+- **Latlong2** for managing geographic coordinates.
+- **Firebase** (Realtime Database and Firestore) to store and synchronize data in real time.
+- **Lottie** for interactive animations.
+- **OpenRouteService (OPM)** to calculate routes.  
+- **IoT sensors (Temperature, pH, TDS, etc.)** to collect real-time water's parameters.
+- **External React interface** to catalog and input mineral data (calcium, potassium, sodium, etc.) from analysis laboratories linked to each water source.
+
+---
+
+## 🔹 Project Structure
 
 ```
 aqua_sense/
@@ -54,22 +53,22 @@ aqua_sense/
 │ │ └─ mesures.dart # Classe Mesures
 │ │ └─ water_source.dart # Classe WaterSource
 │ ├─ pages/
-│ │ └─ home.dart # Page d'accueil
-│ │ └─ map_page.dart # Carte interactive
-│ │ └─ proposer_page.dart # Proposition de sources d'eau
-│ │ └─ infos.dart # Page informative
+│ │ └─ home.dart # Home page
+│ │ └─ map_page.dart # Interactive map
+│ │ └─ proposer_page.dart # Water source suggestion page
+│ │ └─ infos.dart # Information page
 │ ├─ widgets
-│ └─ main.dart # Point d'entrée de l'application
+│ └─ main.dart # Application entry point
 ├─ .env
-├─ pubspec.yaml # Dépendances et configuration Flutter
+├─ pubspec.yaml # Flutter dependencies and configuration
 └─ README.md
 ```
 
 ---
 
-## 🔹 Lancer l'application
+## 🔹 Running the Application
 
-1. Cloner le repo :  
+1. Clone the repo:  
 ```bash
 git clone https://github.com/AnisSfihi/Fonteo.git
 cd Fonteo
