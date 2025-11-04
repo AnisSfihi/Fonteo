@@ -63,6 +63,7 @@ aqua_sense/
 ├─ .env
 ├─ pubspec.yaml # Dépendances et configuration Flutter
 └─ README.md
+```
 
 ---
 
