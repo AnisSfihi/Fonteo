@@ -9,21 +9,19 @@
 L'idée de Fonteo est de centraliser les informations sur les sources d'eau pour :  
 
 - Identifier les points d'eau fiables.
-- Fournir des informations précises sur chaque source.
-- Offrir une interface intuitive pour explorer et comparer les sources autour de l’utilisateur.
-- Permettre aux utilisateurs de contribuer en ajoutant ou signalant de nouvelles sources.
-- Faciliter la compréhension de la qualité de l’eau grâce à des données IoT et des analyses minérales.
+- Fournir des données précises et en temps réel.
+- Offrir une interface intuitive pour explorer et comparer les sources.
+- Permettre aux utilisateurs de contribuer et de signaler de nouvelles sources.
 
 ---
 
 ## 🔹 Fonctionnalités
 
-- **Cartographie interactive** avec MapTiler, OpenStreetMap et Flutter.  
-- **Recherche et filtrage** des sources selon le nom ou la localisation.
-- **Informations détaillées sur chaque source** : distance, paramètres (pH, TDS, turbidité…), minéralité (calcium, potassium, sodium…), potabilité et notes des utilisateurs.
-- **Favoris et historique** : Sources préférées et historique de visites.
-- **Proposition de nouvelles sources** : sélectionnez un emplacement sur la carte et envoyez-le via un formulaire avec itinéraire intégré.
-- **Validation intelligente des noms de sources** : évite les doublons ou les noms non pertinents grâce au modèle WaterSource.
+- **Cartographie interactive**
+- **Recherche et filtrage**
+- **Informations détaillées sur chaque source**
+- **Proposition de nouvelles sources**
+- **Validation intelligente des noms de sources**
 
 ---
 
@@ -43,6 +41,7 @@ L'idée de Fonteo est de centraliser les informations sur les sources d'eau pour
 
 ## 🔹 Structure du projet
 
+``
 aqua_sense/
 │
 ├─ assets/
@@ -64,10 +63,11 @@ aqua_sense/
 ├─ .env
 ├─ pubspec.yaml # Dépendances et configuration Flutter
 └─ README.md
+``
 
 ---
 
-## 🔹 Comment lancer l'application
+## 🔹 Lancer l'application
 
 1. Cloner le repo :  
 ```bash
