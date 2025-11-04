@@ -1,0 +1,83 @@
+# =========================
+#  FICHIERS SYSTÈME / ÉDITEUR
+# =========================
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.atom/
+.history
+.svn/
+
+# =========================
+#  INTELLIJ / ANDROID STUDIO
+# =========================
+*.ipr
+*.iws
+**/local.properties
+**/*.keystore
+*.jks
+
+# =========================
+#  FLUTTER / DART
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.pub-cache/
+.pub/
+.packages
+/build/
+coverage/
+.flutter_build/
+**/ios/Flutter/.last_build_id
+**/doc/api/
+generated_plugin_registrant.dart
+
+# =========================
+#  FICHIERS DE BUILD ANDROID
+# =========================
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# =========================
+#  FICHIERS DE BUILD GÉNÉRAUX
+# =========================
+.build/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
+
+# =========================
+#  FICHIERS SENSIBLES
+# =========================
+.env
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase.json
+android/key.properties
+serviceAccount*.json
+service-account*.json
+
+# =========================
+#  SYMBOLICATION / OBFUSCATION
+# =========================
+app.*.symbols
+app.*.map.json
+
+# Gradle
+.gradle/
+android/.gradle/
+
+# iOS / CocoaPods
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Runner/GeneratedPluginRegistrant.*
