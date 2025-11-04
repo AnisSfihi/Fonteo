@@ -41,7 +41,7 @@ L'idée de Fonteo est de centraliser les informations sur les sources d'eau pour
 
 ## 🔹 Structure du projet
 
-``
+```
 aqua_sense/
 │
 ├─ assets/
@@ -63,7 +63,6 @@ aqua_sense/
 ├─ .env
 ├─ pubspec.yaml # Dépendances et configuration Flutter
 └─ README.md
-``
 
 ---
 
