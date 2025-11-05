@@ -648,7 +648,7 @@ class MapPageState extends State<MapPage> with WidgetsBindingObserver {
               // Couche de tuiles pour la carte
               TileLayer(
                 urlTemplate:
-                    "https://api.maptiler.com/maps/topo/{z}/{x}/{y}.png?key=key=$mapTilerKey",
+                    "https://api.maptiler.com/maps/topo/{z}/{x}/{y}.png?key=$mapTilerKey",
                 userAgentPackageName: 'com.example.app',
               ),
               // ===========================
