@@ -50,13 +50,13 @@ aqua_sense/
 ├─ lib/
 │ ├─ methods
 │ ├─ models/
-│ │ └─ mesures.dart # Classe Mesures
-│ │ └─ water_source.dart # Classe WaterSource
+│ │ └─ mesures.dart # Measures Class
+│ │ └─ water_source.dart # WaterSource Class
 │ ├─ pages/
 │ │ └─ home.dart # Home page
-│ │ └─ map_page.dart # Interactive map
-│ │ └─ proposer_page.dart # Water source suggestion page
-│ │ └─ infos.dart # Information page
+│ │ └─ map_page.dart # Interactive Map
+│ │ └─ proposer_page.dart # Water Source Suggestion Page
+│ │ └─ infos.dart # Information Page
 │ ├─ widgets
 │ └─ main.dart # Application entry point
 ├─ .env
