@@ -69,9 +69,6 @@ aqua_sense/
 ## 🔹 Running the Application
 
 1. Clone the repo:  
-```bash
+```bash 
 git clone https://github.com/AnisSfihi/Fonteo.git
 cd Fonteo
-
-
-© 2025 AnisSfihi. Tous droits réservés.
