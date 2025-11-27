@@ -72,3 +72,6 @@ aqua_sense/
 ```bash
 git clone https://github.com/AnisSfihi/Fonteo.git
 cd Fonteo
+
+
+© 2025 AnisSfihi. Tous droits réservés.
